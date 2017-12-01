@@ -114,6 +114,7 @@ class Person {
 
 - [ ] Serialize and deserialize your person instance with [Serde](https://github.com/serde-rs/serde).
 - [ ] Separate functions and a struct into other files.
+  - Hint: [Crates and Modules](https://doc.rust-lang.org/book/first-edition/crates-and-modules.html)
 
 
 ## Resources
