@@ -54,6 +54,13 @@ $ cargo test
 
 ## Basic Requirements
 
+
+- [ ] Translate below JavaScript code into Rust.
+  - Hint: If you stuck with something from above code, you can refer [slides of this lecture](https://docs.google.com/presentation/d/1aG7Uq4D9LPW7FKsi6ImRQ2_SabCbOJcDhABhkb9-vao/edit?usp=sharing).
+- [ ] Difine type of return value and arugments on each function/method.
+- [ ] Write tests for each function/method.
+  - Hint: Do you remember annotation for tests.
+
 ```javascript
 function main() {
   const number_1 = 1;
@@ -102,13 +109,6 @@ class Person {
   }
 }
 ```
-
-- [ ] Translate above JavaScript code into Rust.
-  - Hint: If you stuck with something from above code, you can refer [slides of this lecture](https://docs.google.com/presentation/d/1aG7Uq4D9LPW7FKsi6ImRQ2_SabCbOJcDhABhkb9-vao/edit?usp=sharing).
-- [ ] Difine type of return value and arugments on each function/method.
-- [ ] Write tests for each function/method.
-  - Hint: Do you remember annotation for tests.
-
 
 ## Advanced Requirements.
 
