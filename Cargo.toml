@@ -1,0 +1,6 @@
+[package]
+name = "cc2-rust-workshop"
+version = "0.1.0"
+authors = ["Tsuyoshi Maeda <oasis5tsuyoshi@gmail.com>"]
+
+[dependencies]
