@@ -61,6 +61,7 @@ $ cargo test
 - [ ] Difine type of return value and arugments on each function/method.
 - [ ] Write tests for each function/method.
   - Hint: Do you remember annotation for tests.
+  - [How to Write Tests](https://doc.rust-lang.org/book/second-edition/ch11-01-writing-tests.html)
 
 ```javascript
 function main() {
@@ -89,7 +90,7 @@ function add(a, b) {
   return a + b;
 }
 
-function output(input) {
+function output_string(input) {
   console.log(input);
 }
 
@@ -113,11 +114,13 @@ class Person {
 
 ## Advanced Requirements.
 
-- [ ] Serialize and deserialize your person instance with [Serde](https://github.com/serde-rs/serde).
-  - Output person information on your console with `println!`.
 - [ ] Separate functions and a struct into other files.
   - Hint: [Crates and Modules](https://doc.rust-lang.org/book/first-edition/crates-and-modules.html)
-- [ ] Create an array([vector](https://doc.rust-lang.org/std/vec/struct.Vec.html)) of person instances and print each information with `for in` loop.
+- [ ] Serialize and deserialize your person instance with [Serde](https://github.com/serde-rs/serde).
+  - add dependencies in Cargo.toml.
+    - see [crates.io](https://crates.io/crates/serde)
+  - Output person information on your console with `println!`.
+- [ ] Create an array.([vector](https://doc.rust-lang.org/std/vec/struct.Vec.html)) of person instances and print each information with `for in` loop.
   - To output a person information, use [Serde](https://github.com/serde-rs/serde) and derive what you need from Serde.
 
 
@@ -125,5 +128,7 @@ class Person {
 
 - [Slides for today's lecture](https://docs.google.com/presentation/d/1aG7Uq4D9LPW7FKsi6ImRQ2_SabCbOJcDhABhkb9-vao/edit?usp=sharing)
 - [Install Rust](https://www.rust-lang.org/en-US/install.html)
+- [How to Write Tests](https://doc.rust-lang.org/book/second-edition/ch11-01-writing-tests.html)
 - [Serde](https://github.com/serde-rs/serde)
+- [Vectors](https://doc.rust-lang.org/book/second-edition/ch08-01-vectors.html)
 - [Crates and Modules](https://doc.rust-lang.org/book/first-edition/crates-and-modules.html)
