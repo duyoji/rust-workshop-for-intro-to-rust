@@ -23,18 +23,24 @@ impl Person {
     );
   }
 }
-#[test]
-fn it_person() {
-  let person = Person::new("FN", "LN", 1);
-  assert_eq!("FN", person.first_name);
-  assert_eq!("LN", person.last_name);
-  assert_eq!(1, person.age);
-}
-#[test]
-fn it_person_greet() {
-  let person = Person::new("FN", "LN", 1);
 
-  // Expected no error.
-  person.greet();
-  assert!(true);
+#[cfg(test)]
+mod tests {
+  use super::*;
+
+  #[test]
+  fn it_person() {
+    let person = Person::new("FN", "LN", 1);
+    assert_eq!("FN", person.first_name);
+    assert_eq!("LN", person.last_name);
+    assert_eq!(1, person.age);
+  }
+  #[test]
+  fn it_person_greet() {
+    let person = Person::new("FN", "LN", 1);
+
+    // Expected no error.
+    person.greet();
+    assert!(true);
+  }
 }
