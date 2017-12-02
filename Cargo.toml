@@ -1,5 +1,5 @@
 [package]
-name = "cc2-rust-workshop"
+name = "cc2_rust_workshop"
 version = "0.1.0"
 authors = ["Tsuyoshi Maeda <oasis5tsuyoshi@gmail.com>"]
 

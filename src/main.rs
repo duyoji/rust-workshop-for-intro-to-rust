@@ -23,9 +23,19 @@ fn main() {
 fn add(a: i32, b: i32) -> i32 {
   a + b
 }
+#[test]
+fn it_add() {
+  assert_eq!(1 + 2, add(1, 2));
+}
 
 fn output_string(input: &str) -> () {
   println!("{}", input);
+}
+#[test]
+fn it_output_string() {
+  // Expected no error.
+  output_string("abc");
+  assert!(true);
 }
 
 #[derive(Debug)]
@@ -52,4 +62,19 @@ impl Person {
       &self.age
     );
   }
+}
+#[test]
+fn it_person() {
+  let person = Person::new("FN", "LN", 1);
+  assert_eq!("FN", person.first_name);
+  assert_eq!("LN", person.last_name);
+  assert_eq!(1, person.age);
+}
+#[test]
+fn it_person_greet() {
+  let person = Person::new("FN", "LN", 1);
+
+  // Expected no error.
+  person.greet();
+  assert!(true);
 }
