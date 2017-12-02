@@ -61,6 +61,7 @@ $ cargo test
 - [ ] Difine type of return value and arugments on each function/method.
 - [ ] Write tests for each function/method.
   - Hint: Do you remember annotation for tests.
+  - [How to Write Tests](https://doc.rust-lang.org/book/second-edition/ch11-01-writing-tests.html)
 
 ```javascript
 function main() {
@@ -125,5 +126,6 @@ class Person {
 
 - [Slides for today's lecture](https://docs.google.com/presentation/d/1aG7Uq4D9LPW7FKsi6ImRQ2_SabCbOJcDhABhkb9-vao/edit?usp=sharing)
 - [Install Rust](https://www.rust-lang.org/en-US/install.html)
+- [How to Write Tests](https://doc.rust-lang.org/book/second-edition/ch11-01-writing-tests.html)
 - [Serde](https://github.com/serde-rs/serde)
 - [Crates and Modules](https://doc.rust-lang.org/book/first-edition/crates-and-modules.html)
