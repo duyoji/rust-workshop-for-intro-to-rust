@@ -56,6 +56,7 @@ $ cargo test
 
 
 - [ ] Translate below JavaScript code into Rust.
+  - In order to run your program with `cargo run`, you need to create `main.rs` and a function named `main` in the file.
   - Hint: If you stuck with something from above code, you can refer [slides of this lecture](https://docs.google.com/presentation/d/1aG7Uq4D9LPW7FKsi6ImRQ2_SabCbOJcDhABhkb9-vao/edit?usp=sharing).
 - [ ] Difine type of return value and arugments on each function/method.
 - [ ] Write tests for each function/method.
@@ -113,6 +114,7 @@ class Person {
 ## Advanced Requirements.
 
 - [ ] Serialize and deserialize your person instance with [Serde](https://github.com/serde-rs/serde).
+  - Output person information on your console with `println!`.
 - [ ] Separate functions and a struct into other files.
   - Hint: [Crates and Modules](https://doc.rust-lang.org/book/first-edition/crates-and-modules.html)
 
