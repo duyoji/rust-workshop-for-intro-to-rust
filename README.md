@@ -132,3 +132,7 @@ class Person {
 - [Serde](https://github.com/serde-rs/serde)
 - [Vectors](https://doc.rust-lang.org/book/second-edition/ch08-01-vectors.html)
 - [Crates and Modules](https://doc.rust-lang.org/book/first-edition/crates-and-modules.html)
+- Example answers
+  - When you stuck with requirements, you can see below example answers. But don't copy and paste. Writing code helps you to remember what you learn.
+    - [For Basic Requirements](https://github.com/duyoji/cc2-rust-workshop/pull/1/files)
+    - [For Advanced Requirements](https://github.com/duyoji/cc2-rust-workshop/pull/2/files)
