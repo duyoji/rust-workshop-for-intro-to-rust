@@ -7,6 +7,7 @@ use cc2_rust_workshop::helpers::output;
 
 fn main() {
   // Basic requirement parts.
+
   let number_1 = 1;
   println!("{}", number_1);
 
@@ -36,4 +37,19 @@ fn main() {
   // Convert the JSON string back to a Person.
   let deserialized_person: Person = serde_json::from_str(&serialized_person).unwrap();
   println!("deserialized_person = {:?}", deserialized_person);
+
+  let mut persons: Vec<Person> = vec![];
+  for i in 0..5 {
+    let person = Person::new(
+      &format!("FN_{}", i),
+      &format!("LN_{}", i),
+      i
+    );
+    persons.push(person);
+  }
+  println!("{}", persons.len());
+  for p in persons {
+    // If you use {:#?} instead of {:?}, the format becomes more readable.
+    println!("{:#?}", p);
+  }
 }
