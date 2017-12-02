@@ -117,6 +117,8 @@ class Person {
 - [ ] Separate functions and a struct into other files.
   - Hint: [Crates and Modules](https://doc.rust-lang.org/book/first-edition/crates-and-modules.html)
 - [ ] Serialize and deserialize your person instance with [Serde](https://github.com/serde-rs/serde).
+  - add dependencies in Cargo.toml.
+    - see [crates.io](https://crates.io/crates/serde)
   - Output person information on your console with `println!`.
 - [ ] Create an array([vector](https://doc.rust-lang.org/std/vec/struct.Vec.html)) of person instances and print each information with `for in` loop.
   - To output a person information, use [Serde](https://github.com/serde-rs/serde) and derive what you need from Serde.
