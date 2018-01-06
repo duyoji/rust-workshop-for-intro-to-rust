@@ -57,7 +57,7 @@ $ cargo test
 
 - [ ] Translate below JavaScript code into Rust.
   - In order to run your program with `cargo run`, you need to create `main.rs` and a function named `main` in the file.
-  - Hint: If you stuck with something from above code, you can refer [slides of this lecture](https://docs.google.com/presentation/d/1aG7Uq4D9LPW7FKsi6ImRQ2_SabCbOJcDhABhkb9-vao/edit?usp=sharing).
+  - Hint: If you stuck with something from above code, you can refer [slides of this lecture](https://docs.google.com/presentation/d/1ymgB7aPisQqxW5oSVR6H24jcu-0w63tj81xPaCfyPHM/edit?usp=sharing).
 - [ ] Difine type of return value and arugments on each function/method.
 - [ ] Write tests for each function/method.
   - Hint: Do you remember annotation for tests.
@@ -126,7 +126,7 @@ class Person {
 
 ## Resources
 
-- [Slides for today's lecture](https://docs.google.com/presentation/d/1aG7Uq4D9LPW7FKsi6ImRQ2_SabCbOJcDhABhkb9-vao/edit?usp=sharing)
+- [Slides for today's lecture](https://docs.google.com/presentation/d/1ymgB7aPisQqxW5oSVR6H24jcu-0w63tj81xPaCfyPHM/edit?usp=sharing)
 - [Install Rust](https://www.rust-lang.org/en-US/install.html)
 - [How to Write Tests](https://doc.rust-lang.org/book/second-edition/ch11-01-writing-tests.html)
 - [Serde](https://github.com/serde-rs/serde)
